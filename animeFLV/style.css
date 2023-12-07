@@ -1,0 +1,157 @@
+html body {background-color: rgba(255, 246, 230, 0.818);}
+body {height: 100%;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;}
+html a{text-decoration: none;}
+body li {list-style: none;}
+
+
+
+
+/* header */
+#rowHeader input::placeholder{ color: white}
+
+#rowHeader{ 
+background-color: rgb(47, 47, 47);
+height: 75px;
+padding-left: 25px;
+padding-right: 25px;}
+
+#rowHeader a {
+    color: grey;
+    font-weight:bolder;
+}
+
+#inputNavbar{
+    position: relative;
+}
+#imgLupa {
+    width: 20px;
+    margin-left: -40px;
+    
+    margin-top: -10px;
+    position: absolute;
+}
+#liImg button {
+    margin-left: -50px;
+    background-color: black;
+    color: aliceblue;
+    
+} 
+
+
+/* responsive */
+
+#imgMenuNav{
+    width: 50px;
+    display: none;
+}
+
+
+
+
+
+
+/* main */
+
+#main a {color:black}
+
+#topBarMain {
+
+    background-color: black;
+    color: white;
+    height: 50px;
+    border-bottom: solid rgb(56, 56, 255)
+}
+#topBarMain p{font-size: 25px;
+font-weight: 100;}
+
+#enEmisionCol ul {
+    background-color: white;
+
+}
+#enEmisionCol h5{font-size: 20px;}
+#enEmisionCol li {
+    
+  margin-left: -30px;
+}
+
+
+
+
+#animesDirectoryEp div {
+    width: 22%;
+}
+#animesDirectoryEp img {
+    margin-bottom: -25px;
+    border-radius: 5% ; 
+}
+#animesDirectoryEp div:hover {
+    zoom: 105%;
+}
+#animesDirectoryEp p{
+color: white;
+font-weight: bolder;
+-webkit-text-stroke: 0.5px;
+backdrop-filter: brightness(70%);
+}
+
+#animesDirectoryAnim div{
+    width: 20%; 
+}
+#animesDirectoryAnim img{
+    border-radius: 5% ; }
+
+
+
+
+
+/* footer */
+
+#footer{
+background-color: rgb(59, 59, 59);
+}
+#footer a {
+    color: white;
+    font-size: 12px;
+}
+#footer a:hover {
+    text-decoration:underline;
+}
+#divImg{ 
+    max-width: 150px;
+  margin-left: 150px;
+ 
+}
+
+#imgFooter{
+    width: 20%;
+    margin-left: 30px;
+
+}
+#btnGroup{
+  min-width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+/* media */
+ @media (max-width: 750px){
+    #enEmisionCol{display: none;}
+    #animesDirectoryEp div div {width:40%;}
+    #ulResponsive li {display: none; }
+    #imgMenuNav { display: flex;
+    margin-top: 5px;}
+
+
+  
+}
+
+
+    

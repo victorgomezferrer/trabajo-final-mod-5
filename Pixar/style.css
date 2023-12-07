@@ -1,0 +1,221 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/*Header*/
+
+.header-list {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.nav-bar-responsive {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+
+.header-list li {
+
+    margin-left: 30px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.titles-header-a {
+    font-size: 13px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+
+}
+
+#img-header {
+    width: 100px;
+    margin-left: -50px;
+}
+
+
+
+/* propiedades de los submenus desplegables */
+
+.submenu {
+    display: none;
+    position: absolute;
+    width: 180px;
+    padding-top: 10px;
+
+}
+
+.submenu li {
+    background-color: rgb(25, 25, 25);
+    padding: 15px;
+    padding-left: 30px;
+    margin-left: -100px;
+}
+
+.submenu a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.nav-bar li:hover>.submenu {
+    display: block;
+    float: center;
+}
+.header-list a:hover {
+    color: rgb(0, 187, 255);
+}
+
+
+
+/* responsive de la nav bar */
+#boton-submenu{
+    display: none;
+}
+
+#boton-submenu {
+width: 40px;
+height: 40px;
+
+}
+
+
+
+
+
+
+/*Body*/
+
+
+
+h1 {
+    margin-left: 100px;
+    padding-left: 40px;
+    font-weight: 100;
+    font-size: 40px;
+    color: #1e1e1e;
+}
+
+.menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: -30px;
+
+}
+
+.menu-list div {
+    margin-left: 30px;
+    width: 250px;
+
+}
+
+.menu-list img {
+    margin-bottom: -10px;
+    max-width: 250px;
+    border-radius: 5px;
+}
+
+.menu-list img:hover {
+    zoom: 105%
+}
+
+.menu-list a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-list a:hover {
+    color: rgb(0, 187, 255);
+}
+
+.rrss {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+
+
+
+
+/* FOOTER */
+
+
+#bottomImg {
+    display: flex;
+    justify-content: center;
+}
+
+#bottomImg img {
+    width: 100px;
+}
+
+.bottom ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.bottom a {
+    text-decoration: none;
+    color: #141414b0;
+    font-size: 11px;
+    margin-left: 20px;
+}
+
+.bottom p {
+    display: flex;
+    justify-content: center;
+    color: #141414b0;
+    font-size: 11px;
+}
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE DE LA BARRA DEL NAV */
+@media (max-width:860px) {
+    .nav-bar-responsive {
+        display: none;
+    }
+
+    .header-list {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-list li {
+        width: 85%;
+    }
+    .submenu-desplegable{
+        display: block;
+        width: 50px;
+        height: 50px; 
+      width: 100px;
+    }
+    #boton-submenu{
+        display: block;
+    }
+    #boton-submenu:hover>.nav-bar-responsive{
+        display: block;
+        position: relative;
+    }
+}
